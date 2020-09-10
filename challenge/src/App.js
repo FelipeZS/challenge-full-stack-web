@@ -1,10 +1,12 @@
 import React from 'react';
 
+import Listing from './pages/Listing';
+
+import "./assets/styles/global.css";
+
 function App() {
   return (
-    <div className="App">
-      
-    </div>
+    <Listing/>
   );
 }
 
