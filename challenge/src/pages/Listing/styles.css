@@ -1,0 +1,27 @@
+.page-listing {
+  background: black;
+  width: 100vw;
+  height: 100vh;
+
+  display: grid;
+
+  grid-template-rows: 150px 100px 100px 1fr;
+  grid-template-columns: 300px 1fr;
+  grid-template-areas: "logo";
+
+  grid-gap: 5px;
+}
+
+.page-listing > div {
+  background: white;
+}
+
+.logo-listing img {
+  height: 80px;
+  margin-top: 3.5rem;
+  margin-left: 3.5rem;
+}
+
+.logo-listing {
+  grid-area: logo;
+}
