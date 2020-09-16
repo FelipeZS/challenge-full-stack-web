@@ -1,0 +1,138 @@
+.container1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  background-color: #e6e6f0
+}
+
+.content {
+  border-radius: 15px;
+  background-color: white;
+  width: 80%;
+  height: 80%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+}
+
+.content::before {
+  content: "";
+  position: absolute;
+  background-color: mediumturquoise;
+  width:40%;
+  height: 100%;
+  border-top-left-radius: 15px;
+  border-bottom-left-radius: 15px;
+}
+
+.first-column img {
+  height: 10rem;
+}
+
+.first-column p {
+  font-family: Archivo;
+  font-weight: bold;
+  font-size: 2.5rem;
+  margin-top: 2rem;
+  color: white;
+}
+
+.first-column .btn {
+  border-radius: 15px;
+  text-transform: uppercase;
+  padding: 10px 50px;
+  color: white;
+  font-size: 1.5rem;
+  font-weight: bold;
+  font-family: Archivo;
+  cursor: pointer;
+}
+
+.first-column .btn:hover {
+  background-color: white;
+  color:mediumturquoise;
+}
+
+.first-column .btn-1 {
+  background-color: transparent;
+  border: 1px solid #fff;
+}
+
+.first-column {
+  text-align: center;
+  flex: 1 0 auto;
+  z-index: 1;
+  width: 33%
+}
+
+.second-column {
+  flex: 2 0 auto;
+}
+
+.first-content {
+  display: flex;
+}
+
+.second-column {
+  flex: 2 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 46%;
+}
+
+.second-column p {
+  color: mediumturquoise;
+  font-size: 3.5rem;
+  font-weight: bold;
+  font-family: Archivo;
+}
+
+.second-column .btn {
+  border-radius: 15px;
+  text-transform: uppercase;
+  padding: 10px 50px;
+  color:  white;
+  font-size: 1.5rem;
+  font-weight: bold;
+  font-family: Archivo;
+  cursor: pointer;
+  width: 20rem;
+  align-self: center;
+  margin-top: 1rem;
+}
+
+.second-column .btn-1 {
+  background-color:mediumturquoise;
+  border: 1px solid  mediumturquoise;
+}
+
+.second-column .btn:hover {
+  background-color:white;
+  color:mediumturquoise;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  width: 55%;
+}
+
+.form label {
+  font-weight: bold;
+  font-size: 1.5rem;
+  font-family: Archivo;
+  margin-left: 1rem;
+}
+
+.form input {
+  height: 45px;
+  border: none;
+  background-color: #ecf0f1;
+  margin: 8px;
+  font-family: Archivo;
+  font-size: 1.5rem;
+  padding: 0 1.5rem;
+}
