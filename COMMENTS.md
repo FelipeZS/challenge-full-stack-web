@@ -3,7 +3,7 @@
 - Desafio desenvolvido para utilização no desktop, utilizando tecnologias como HTML, CSS, Javascript, SQLite, ReactJs e TypeScript. 
 O foco do projeto foi seguir a metodologia single-page application, utilizando o Insomnia Core para realizar testes.
 - Iria utilizar o Bootstrap para fazer algumas estilizações, porém o mesmo acabou não sendo utilizado.
-- [Utilizei fonts do](https://fonts.googleapis.com/css2?family=Archivo:wght@400;700&family=Poppins&display=swap)> 
+- Utilizei fonts do (https://fonts.googleapis.com/css2?family=Archivo:wght@400;700&family=Poppins&display=swap) em alguns itens. 
 
 ## Pontos a se melhorar no projeto
 
