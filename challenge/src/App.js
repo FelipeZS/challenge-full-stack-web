@@ -1,12 +1,11 @@
 import React from 'react';
 
-import Listing from './pages/Listing';
-
 import "./assets/styles/global.css";
+import Routes from './routes';
 
 function App() {
   return (
-    <Listing/>
+    <Routes/>
   );
 }
 
